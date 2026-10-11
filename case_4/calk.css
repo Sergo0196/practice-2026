@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    background-color:#87BDE6;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.calk {
+    display: flex;
+    flex-direction:column;
+    gap: 20px;
+    text-align: center;
+}
+
+.val {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    height: 40px;
+}
+
+.val input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;
+    background-color:#87E6DC;
+}
+
+.result {
+    border: 1px solid black;
+    min-width: 60px;
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E6D387;
+}
+
+.buttons {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+button{
+    background-color: #E6C087;    
+}
