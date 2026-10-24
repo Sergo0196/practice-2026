@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>Ошибка 404</title>
-    </head>
-    <body style="text-align:center; padding-top:5rem; font-family:sans-serif; color:#333; background-color:#f9f9f9;">
-        <h1 style="font-size:3rem;">Ой!</h1>
-        <p>Страница не найдена.</p>
-        <a href="{% url 'index' %}" style="display:block; margin-top:1rem; text-decoration:none; border-radius:.25rem; padding:.5rem 1rem; background-color:#eaeaea; color:#333;">Вернуться на главную страницу</a>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ошибка 500 — Внутренняя ошибка сервера</title>
+</head>
+<body style="text-align:center; padding:5rem 1rem; font-family:sans-serif; color:#333; background:#f9f9f9;">
+    <h1 style="font-size:3rem;">500</h1>
+    <h2>Внутренняя ошибка сервера</h2>
+    <p>При обработке запроса произошла ошибка. Пожалуйста, попробуйте позже.</p>
+    <a href="{% url 'my_app:index' %}">Вернуться на главную страницу</a>
+</body>
 </html>
