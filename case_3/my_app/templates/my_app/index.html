@@ -1,15 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Имя</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'my_app/style.css' %}"></head>
 <body>
     <form method="POST">
         {% csrf_token %}
         {{ form.as_p }}
-        <button type="submit">Submit</button>
+        <button class="button" type="submit">Submit</button>
     </form>
 </body>
 </html>
